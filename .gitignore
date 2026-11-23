@@ -1,0 +1,10 @@
+build/
+build-*/
+deps/
+testdata/
+*.zip
+.DS_Store
+._*
+.vs/
+*.user
+__pycache__/
