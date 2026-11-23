@@ -128,7 +128,7 @@ renderer (−131 dB difference, i.e. identical within float rounding).
 ### 2. Get the code and dependencies
 
 ```powershell
-git clone https://github.com/OWNER/tonex-nam-bridge.git
+git clone https://github.com/johnborillo/tonex-nam-bridge.git
 cd tonex-nam-bridge
 powershell -ExecutionPolicy Bypass -File scripts\bootstrap.ps1   # NAM core at the tested commit
 ```
@@ -220,7 +220,7 @@ reg delete "HKCU\Software\tonex-nam-bridge" /f                           # optio
 
 The full design and test spec is in [docs/WINDOWS_ASIO.md](docs/WINDOWS_ASIO.md).
 
-**Related:** [tonex-amd-gpu](https://github.com/OWNER/tonex-amd-gpu) makes ToneX Modeler
+**Related:** [tonex-amd-gpu](https://github.com/johnborillo/tonex-amd-gpu) makes ToneX Modeler
 *train* captures on an AMD Radeon GPU (by default it uses the GPU only on NVIDIA cards).
 
 ## Notes
