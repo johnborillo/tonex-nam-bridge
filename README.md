@@ -229,3 +229,16 @@ The full design and test spec is in [docs/WINDOWS_ASIO.md](docs/WINDOWS_ASIO.md)
   Developer ID signature and notarization.
 - Captures on TONE3000 carry their creators' licenses. Recapturing for your own use is one thing;
   posting the ToneX versions (e.g. on ToneNET) may not be allowed for a given capture.
+
+## License
+
+GNU General Public License v3.0: see [LICENSE](LICENSE). You may use, modify and redistribute
+this project. If you distribute it, or anything built from it, you must do so under GPLv3 and
+make the source available.
+
+The Windows ASIO driver has to be GPLv3, because it's built with Steinberg's ASIO SDK under the
+SDK's GPLv3 option (details in [asio/COPYING.md](asio/COPYING.md)). Third-party code fetched into
+`deps/` keeps its own license: NeuralAmpModelerCore and libASPL are MIT.
+
+ToneX and TONEX are trademarks of IK Multimedia, ASIO of Steinberg Media Technologies, and
+NAM / Neural Amp Modeler of its respective owner. This project is not affiliated with any of them.
